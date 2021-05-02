@@ -1,0 +1,23 @@
+p{
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: green;
+    font-family: sans-serif;
+    font: size 20cm;
+}
+h2{
+    color: greenyellow;
+    font-weight: 100;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    color: mediumblue;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+ol{
+    
+}
