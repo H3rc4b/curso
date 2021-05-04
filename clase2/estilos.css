@@ -48,6 +48,7 @@ h3{
     margin: 0% auto;
     width: 60%;
     position: relative;
+    margin-top: 0%;
 }
 #imagen{
     position: static;
@@ -65,5 +66,8 @@ h3{
     background-color: darkblue;
     width: 100%;
     height: auto;
-    position: relative;
+    margin-bottom: 0%;
+}
+a:hover{
+    color: darkred;
 }
