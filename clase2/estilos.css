@@ -51,7 +51,6 @@ h3{
 }
 #imagen{
     position: static;
-    margin: 100px;;
     margin-bottom: 0xp;
     text-align: center;
 
@@ -61,4 +60,10 @@ h3{
     height: auto;
     position: relative;
     margin: auto;
+}
+#pie{
+    background-color: darkblue;
+    width: 100%;
+    height: auto;
+    position: relative;
 }
