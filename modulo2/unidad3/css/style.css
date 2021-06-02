@@ -1,2 +1,12 @@
-/* font-family: 'Alfa Slab One', cursive; */
-/* font-family: 'Open Sans', sans-serif; */
+footer{
+    background-color: #aaa;
+}
+h1, h2{
+    font-family:'Alfa Slab One', cursive;
+}
+.hero {
+    background-image: url(../img/header.jpg) no-repeat #000 ;
+    background-size: 50vh;
+    min-height: 600px;
+    color:white;
+   } 
