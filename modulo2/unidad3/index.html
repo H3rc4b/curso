@@ -11,8 +11,8 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-<link rel="stylesheet" href="css/font-awesome.css">
-        <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -26,25 +26,28 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a data-scroll class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Novedades</a>
+                    <a data-scroll class="nav-link" href="#novedades">Novedades</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Historia</a>
+                    <a data-scroll class="nav-link" href="#historia">Historia</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Nosotros</a>
+                    <a data-scroll class="nav-link" href="#nosotros">Nosotros</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Conocenos</a>
+                    <a data-scroll class="nav-link" href="#conocenos">Conocenos</a>
                 </li>
     </nav>
     <div class="container-fluid">
         <!--abre el contenedor grande -->
         <div id="home" class="row aling-items-center hero">
             <div class="col-lg-3 offset-lg-2">
+                <br>
+                <br>
+                <br>
                 <br>
                 <br>
                 <br>
@@ -65,13 +68,16 @@
                                 alt="">Nuevas recetas</a>
                     </li>
                     <li>
-                        <a href="#"data-toggle="modal" data-target="#estilosdemaltas"><img src="img/novedades01.jpg" alt="">Estilos de maltas</a>
+                        <a href="#" data-toggle="modal" data-target="#estilosdemaltas"><img src="img/novedades01.jpg"
+                                alt="">Estilos de maltas</a>
                     </li>
                     <li>
-                        <a href="#"data-toggle="modal" data-target="#nuevasrecetas"><img src="img/novedades01.jpg" alt="">Lupulos nacionales</a>
+                        <a href="#" data-toggle="modal" data-target="#nuevasrecetas"><img src="img/novedades01.jpg"
+                                alt="">Lupulos nacionales</a>
                     </li>
                     <li>
-                        <a href="#"data-toggle="modal" data-target="#nuevasrecetas"><img src="img/novedades01.jpg" alt="">Lupulos Importados</a>
+                        <a href="#" data-toggle="modal" data-target="#nuevasrecetas"><img src="img/novedades01.jpg"
+                                alt="">Lupulos Importados</a>
                     </li>
                     <li>
                         <a href="#"><img src="img/novedades01.jpg" alt="">Nuevas recetas</a>
@@ -94,87 +100,196 @@
                                 Ratione eaque dolorem quo ullam at tenetur voluptatum exercitationem, temporibus ab
                                 reprehenderit, qui a? Qui accusamus animi aperiam?</p>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
             <div class="modal fade" id="estilosdemaltas" data-backdrop="static" data-keyboard="false" tabindex="-1"
-            aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="staticBackdropLabel">Estilos de maltas</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Estilos de maltas</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p style="color: red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                                suscipit ipsam at?
+                                Ratione eaque dolorem quo ullam at tenetur voluptatum exercitationem, temporibus ab
+                                reprehenderit, qui a? Qui accusamus animi aperiam?</p>
+                        </div>
+
                     </div>
-                    <div class="modal-body">
-                        <p style="color: red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid suscipit ipsam at?
-                            Ratione eaque dolorem quo ullam at tenetur voluptatum exercitationem, temporibus ab
-                            reprehenderit, qui a? Qui accusamus animi aperiam?</p>
-                    </div>
-                    
                 </div>
             </div>
-        </div>
             <!--cierro modal -->
-            <div class="col-md-3"> <!--abro testimonios -->
+            <div class="col-md-3">
+                <!--abro testimonios -->
                 <div class="rounded py-3 testimonios">
                     <h2 class="text-center">Testimonios</h2>
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
-                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                         </ol>
                         <div class="carousel-inner">
-                          <div class="carousel-item active">
-                           <div class="testimonio">
-                               <h5>"La mejor cerbeza"</h5>
-                               <p>Fancisco,Montegrande</p>
-                           </div>
-                          </div>
-                          <div class="carousel-item">
-                            <div class="testimonio">
-                                <h5>"Birraaaaa"</h5>
-                                <p>Sergio</p>
-                            </div>
-                          </div>
-                          <div class="carousel-item">
-                            <div class="testimonio">
-                                <h5>"La cerbeza"</h5>
-                                <p>Roberto</p>
+                            <div class="carousel-item active">
+                                <div class="testimonio">
+                                    <h5>"La mejor cerbeza"</h5>
+                                    <p>Fancisco,Montegrande</p>
                                 </div>
-                          </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonio">
+                                    <h5>"Birraaaaa"</h5>
+                                    <p>Sergio</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonio">
+                                    <h5>"La cerbeza"</h5>
+                                    <p>Roberto</p>
+                                </div>
+                            </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
                         </a>
-                      </div>
+                    </div>
                 </div>
-            </div> <!--cierro testimonios -->
+            </div>
+            <!--cierro testimonios -->
         </div>
         <!--cierra el contenedor novedades -->
+        <div id="historia" class="row aling-items-center py-4">
+            <!--inicio historia -->
+            <div class="col-lg-2 col-m-3 offset-lg-2 d-none d-sm-block">
+                <img src="img/historia_1.jpg" alt="historia1" class="img-fluid">
+            </div>
+            <div class="col-lg-2 col-m-3 d-none d-sm-block">
+                <img src="img/historia_2.jpg" alt="historia2" class="img-fluid">
+            </div>
+            <div class="col-12 d-sm-none">
+                <img src="img/historia_3.jpg" alt="historia3" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 mt-4 mt-sm-0">
+                <h2>Historia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, ullam placeat deserunt, fuga facilis
+                    minima quam enim maxime eos pariatur quae distinctio modi laudantium velit excepturi quas numquam?
+                    Cupiditate, mollitia?</p>
+            </div>
+            <!-- cierra historia -->
+        </div>
+        <!--abre contenedor Nosotros -->
+        <div id="nosotros" class="row-aling-items-stretch my-3 staff py-4">
+            <div class="col-lg-8 offset-lg-2">
+                <h2>Nosotros</h2>
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="img/nosotros01.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ramona</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/nosotros02.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Clemente</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
 
-    </div>
-    <!--cierra el contenedor grande -->
-    <footer>
-        <p class="text-center">Diseñado por: Hernan Caballero</p>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
-        crossorigin="anonymous"></script>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/nosotros03.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Claudio</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/nosotros04.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hugo</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--abre conocenos -->
+        <div id="conocenos" class="row py-4">
+            <div class="col-md-5 offset-md-2 py-3">
+                <h2>Visitanos!</h2>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6555.431783040081!2d-58.210909!3d-34.762749!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32f4a1768534d%3A0x3d0e04fbf10c9ce8!2sAv.%2014%204601%2C%20B1880BFA%20Berazategui%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1622771191586!5m2!1ses-419!2sar"
+                    style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <!--cierra el conocenos -->
+            <!-- inicio de contactanos -->
+            <div id="contactanos" class="col-md-3">
+                <form>
+                    <div class="row">
+                        <div class="col"> Nombre
+                          <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="col"> Apellido
+                          <input type="text" class="form-control" placeholder="Apellido">
+                        </div>
+                      </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Tel</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                   
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+
+            <!-- cierre contactanos -->
+        </div>
+        <!--cierra el contenedor grande -->
+        <footer>
+            <p class="text-center">Diseñado por: Hernan Caballero</p>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+            integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0/dist/smooth-scroll.polyfills.min.js"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
 </body>
 
 </html>
